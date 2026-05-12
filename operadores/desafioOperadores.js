@@ -9,12 +9,6 @@ Atalho: SHIFT + ALT + A
 */
 
 
-console.log(10 > 20); // Maior que
-console.log(10 < 20); // Menor que
-console.log(10 >= 20); // Maior ou igual a
-console.log(10 <= 20); // Menor ou igual a
-console.log(10 != 20); // Diferente
-console.log(10 == 20); // Igual
 
 let Dheison = 21 // Number
 let Gomes = "21" // String
@@ -24,6 +18,36 @@ let Gomes = "21" // String
 // === compara valor e tipo
 
 console.log(Dheison != Gomes);
-console.log(Dheison=== Gomes);
+console.log(Dheison === Gomes);
+console.log(Dheison > Gomes);
+console.log(Dheison < Gomes);
+console.log(Gomes === Dheison);
+console.log(Dheison >= Gomes);
+console.log(Dheison <= Gomes);
+console.log(Dheison !== Gomes);
+console.log(Dheison >= Gomes);
+console.log(Dheison >= Gomes);
+console.log(Gomes != Dheison);
 
 
+// CORREÇÃO COM O PROFESSOR
+
+// Declare 2 variáveis
+let a = 10;
+let b = 20;
+
+// Valores TRUE
+console.log("Valores TRUE: ");
+console.log(a < b);
+console.log(a != b);
+console.log(a <= b);
+console.log(b >= a);
+console.log(b != a);
+
+// Valores FALSE
+console.log("Valores FALSE: ");
+console.log(b < a);
+console.log(a == b);
+console.log(b <= a);
+console.log(a >= b);
+console.log(b == a);
