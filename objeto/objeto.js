@@ -12,6 +12,6 @@ console.log(aluno.Idade);
 aluno.matricula = "2026TDS" // Adicona uma nova propriedade
 aluno.Idade = 18; // Atualiza caso existir
 
-delete aluno.curso;
+delete aluno.curso; // Excluir uma propriedade
 console.log(aluno);
 console.log(aluno.Idade);
