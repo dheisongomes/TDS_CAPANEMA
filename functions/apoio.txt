@@ -1,0 +1,5 @@
+Conceito                                        Explicação rápida
+Função com retorno                              Usa 'return' para enviar um valor de volta
+Função em variável                              Função anônima armazenada em variável
+Função com parâmetro                            Permite comportamento dinâmico (callbacks)
+Função que retorna função                       Gera funções personalizadas, conceito de closure
